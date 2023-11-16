@@ -65,6 +65,10 @@ button{
     border: none;
     border-radius: 10px;
   }
+  button a{
+    color : white;
+    text-decoration: none;
+  }
 
   @media  screen and (min-width : 750px) {
     form{

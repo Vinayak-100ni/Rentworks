@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.ico" type="image/x-icon">
+    <title>RentWorks</title>
+    <link rel="stylesheet" href="Dashboard_setup.css">
+
+    <!-- google font - Mulish -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@200;300;400;500;600;700;800&family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- fontawsome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- swiper -->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="dashboard flex">
+        <h1>Let's set up your Dashboard</h1>
+        <p>You can modify your dashboard later if you want</p>
+
+        <form action="http://localhost:8000/">
+
+            <p>How did you find out about RentWorks ?</p>
+
+            <input type="checkbox" id="friends" name = "src" value = "Friends"> <label for="friends">Friends</label><br>
+            
+            <input type="checkbox" id="Social-media" name = "src" value = "Social-meadia"> <label for="Social-media">Social media</label><br>
+            
+            <input type="checkbox" id="Youtube" name = "src" value = "YOutube"> <label for="Youtube">Youtube</label><br>
+            
+            <input type="checkbox" id="Other" name = "src" value = "Other"> <label for="Other">Other</label><br>
+
+
+            <p>Use RentWorks as :</p>
+            <input type="radio" id="Owner" name="use"> <label for="Owner">Owner</label>
+            <input type="radio" id="Renter" name="use"> <label for="Renter">Renter</label><br>
+
+            <button type="submit" class="btn"><a href="">Next</a></button>
+        </form>
+    </div>
+</body>
+</html>
