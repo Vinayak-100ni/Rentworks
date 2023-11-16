@@ -71,6 +71,9 @@ header .logo img{
   border: none;
   border-radius: 10px;
 }
+.btn a{
+  color : white;
+}
 /* into section  */
 .intro{
 height : 70vh;
